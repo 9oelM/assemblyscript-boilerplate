@@ -1,0 +1,27 @@
+{
+  "name": "assemblyscript-bolierplate",
+  "author": {
+    "name": "Joel M",
+    "email": "hj923@hotmail.com",
+    "url": "https://9oelm.github.io"
+  },
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "gulp build",
+    "tsc": "gulp tsc",
+    "node": "gulp node",
+    "gulp": "gulp",
+    "start": "gulp",
+    "test": "asp --verbose",
+    "test:ci": "asp --summary"
+  },
+  "devDependencies": {
+    "@as-pect/cli": "3.1.4",
+    "@types/node": "12.12.31",
+    "assemblyscript": "^0.9.4-nightly.20200423",
+    "gulp": "4.0.2",
+    "gulp-typescript": "6.0.0-alpha.1",
+    "typescript": "3.8.3"
+  }
+}
